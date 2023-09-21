@@ -25,8 +25,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Exchangerate',
       theme: ThemeData(
-        primarySwatch: Colors.grey, // เปลี่ยนสีหลัก
-        fontFamily: 'Roboto', // เพิ่มแบบอักษร
+        primarySwatch: Colors.grey,
+        fontFamily: 'Roboto', 
       ),
       home: BlocProvider(
         create: (context) => CurrencyConverterCubit(),
@@ -53,7 +53,7 @@ class MyHomePage extends StatelessWidget {
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
-            colors: [Colors.white10, Colors.white], // ปรับแต่งสีพื้นหลังแบบ Gradient ตามความต้องการ
+            colors: [Colors.white10, Colors.white],
           ),
         ),
         child: Center(

@@ -50,10 +50,6 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Container(
         decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage('assets/background_image.jpg'), // แทนที่ด้วยรูปภาพพื้นหลังของคุณ
-            fit: BoxFit.cover, // ปรับแต่งตามความต้องการ
-          ),
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
